@@ -4,14 +4,131 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewpoint" content="width=device-width, initial-scal=1.0">
-	<title>MAIN PAGE</title>
+	<title>Karla's Website :)</title>
+	<link rel="mystylesheet" href="mystyle.css">
+	<style>
+		/*declare custom font*/
+		@font-face{
+			font-family: "Arapey";
+			src: url('Arapey-Regular.ttf');
+		}
+
+		/*body setup*/
+		body{
+			margin: 0;
+			font-family: Arapey;
+			background-color: #FDE1D8;
+			background-size: cover;
+			background-attachement: fixed;
+			color: #fc221c;
+
+		}
+
+		/*top navigation menu*/
+		.navMenu{
+			overflow: hidden;
+			text-align: center;
+			word-spacing: 150px;
+			padding: 10px;
+			background-color: #FDE1D8
+
+		}
+
+		.navMenu a{
+			font-size: 22px;
+			text-decoration: none;
+			color: #fc221c;
+
+		}
+
+		.content{
+			text-align: center;
+			margin-top: auto;
+
+		}
+
+		
+		.alignImg{
+			border-radius: 60%;
+			border-color: black;
+			margin-top: 100px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		
+		}
+
+		.nameFontSize{
+		
+			font-size: 50px;
+			pading: 0px;
+			margin: 0px;
+		}
+		.contactLinks{
+			text-align: center;
+			word-spacing: 10px;
+			text-decoration: none;
+		}
+		.contactLinks a{
+			text-decoration: none;
+		}
+
+		footer{
+			text-align:center;
+			padding: 3px;
+			margin-top: 200px;
+			background-color:#FDE1D8 ;
+			
+		}
+
+		
+		
+		
+	/*font size
+	h1: 2em/32px
+	h2: 1.5em/24px
+	h3: 1.17em/18.7px
+	h4: 1em/16px*/
+		
+	</style>
+
 </head>
 <body>
-	<div class="container">
-		<h1> Welcome to my website!</h1>
-		<h2>Check out my projects</h2>
-		<h3>Thank you! Come back for more updates...</h3>
 
-	</div> 
+	<div class="navMenu">
+		<a href="index.html"> Home </a>
+		<a href="about.html"> About </a>
+		<a href="projects.html"> Projects </a>
+		<a href="resume.html"> Resume</a>
+	</div>
+
+	
+<div class="content">
+
+		<img src="mypic.JPG" alt="HTML" width="250" height="250" class="alignImg">
+		<p class="nameFontSize"> Karla Villa Estrella</p>	
+		<h3>Computer Science Major @ CSUEB <h3>
+					
+</div>
+
+<div class="contactLinks">
+	<a href= "https://www.linkedin.com/in/karla-villa-estrella-b33b6320b/"> <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/60/linkedin.png" alt="linkedin"/> </a>
+	
+	<a href = "https://github.com/estrk467"> <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/60/github.png" alt="github"/> </a>
+	
+	<a href= "kvillaestrella@horizon.csueastbay.edu"> <img width="30" height="30" src="https://img.icons8.com/material-rounded/48/new-post.png" alt="new-post"/> </a>
+
+</div>
+
+<footer>
+
+	<a  href="https://icons8.com/icon/98960/linkedin">LinkedIn</a> icon by <a href="https://icons8.com">Icons8 </a>
+	<strong style = "color:black; font-size:20px;"> · </strong>
+	<a  href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a href="https://icons8.com">Icons8 </a>
+	<strong style = "color: black; font-size: 20px;"> · </strong>
+	<a  href="https://icons8.com/icon/85500/email">Email</a> icon by <a href="https://icons8.com">Icons8</a>
+
+</footer>
+
 </body>
 </html>
